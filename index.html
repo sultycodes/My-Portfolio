@@ -1,0 +1,164 @@
+<!--
+  ================================================================
+  PERSONAL DETAILS — EDIT THESE FIRST
+  ================================================================
+  Name: Sultan
+  Email: you@example.com              <-- REPLACE with your real email
+  GitHub: https://github.com/yourusername   <-- REPLACE
+  LinkedIn: https://linkedin.com/in/yourusername   <-- REPLACE
+  CV file: assets/cv.pdf              <-- add your CV PDF to assets/
+  Photo: assets/photo.jpg             <-- your photo goes here
+  University: University of Lagos
+  Course: Quantity Surveying
+  ================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sultan — Quantity Surveying student at the University of Lagos learning AI development, building tools that make measuring, estimating and costing faster.">
+  <title>Sultan | AI Developer in Training &amp; Quantity Surveyor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50%' y='90%' font-size='80' text-anchor='middle' dominant-baseline='central'%3E📐%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="brand">Sultan</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="wrapper hero-grid">
+        <div class="hero-content">
+          <h1>I build AI that does the <span class="highlight">counting.</span></h1>
+          <p>I'm a Quantity Surveying student at the University of Lagos currently learning AI development. I combine my quantity surveying background with AI to build tools that make measuring, estimating and costing faster.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="button button-primary">Hire me</a>
+            <a href="#projects" class="button button-outline">See projects</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/my pic.jpg" alt="Portrait of Sultan" class="portrait">
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="wrapper about-grid">
+        <div class="about-bio">
+          <h2 class="section-title">About me</h2>
+          <p>I'm a Quantity Surveying student at the University of Lagos, learning AI development, and I want to use software to take the repetitive work out of measuring and costing construction projects.</p>
+          <p class="placeholder-note">Placeholder: replace this bio with your own.</p>
+        </div>
+        <div class="about-skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="skill-chips">
+            <li><span class="chip">Python</span></li>
+            <li><span class="chip">LLM APIs</span></li>
+            <li><span class="chip">AutoCAD</span></li>
+            <li><span class="chip">Excel</span></li>
+            <li><span class="chip">Planswift</span></li>
+            <li><span class="chip">Quantity surveying</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="wrapper">
+        <h2 class="section-title">Experience</h2>
+        <p class="section-subtitle">Placeholder: add internships, leadership roles, volunteering and any work done, newest first.</p>
+        <div class="experience-list">
+          <article class="exp-card">
+            <div class="exp-header">
+              <div class="exp-left">
+                <strong class="exp-role">Placeholder Role Title</strong>
+                <span class="exp-org">Placeholder Organisation Name</span>
+              </div>
+              <time class="exp-dates">Month Year – Present</time>
+            </div>
+            <p class="exp-desc">Placeholder description: one or two sentences about what you did in this role.</p>
+          </article>
+          <article class="exp-card">
+            <div class="exp-header">
+              <div class="exp-left">
+                <strong class="exp-role">Placeholder Role Title</strong>
+                <span class="exp-org">Placeholder Organisation Name</span>
+              </div>
+              <time class="exp-dates">Month Year – Month Year</time>
+            </div>
+            <p class="exp-desc">Placeholder description: one or two sentences about what you did in this role.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="wrapper">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid" id="project-grid">
+          <!-- Project tiles are generated here from js/main.js -->
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrapper contact-inner">
+        <h2 class="section-title section-title--dark">Let's work together</h2>
+        <p>I'm available for internship, project-based or full-time roles. If you need an AI developer in training with a quantity surveying background, get in touch.</p>
+        <a href="mailto:you@example.com" class="button button-primary">Email me</a>
+        <div class="contact-links">
+          <a href="#" class="contact-link" aria-label="GitHub">GitHub</a>
+          <a href="#" class="contact-link" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" class="contact-link" aria-label="Download CV">Download CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="project-dialog" id="project-dialog">
+    <div class="dialog-header">
+      <h2 id="dialog-title" class="dialog-title"></h2>
+      <button class="dialog-close" aria-label="Close dialog">×</button>
+    </div>
+    <section class="dialog-body">
+      <div class="dialog-section">
+        <h3 class="dialog-sub">The problem</h3>
+        <p id="dialog-problem"></p>
+      </div>
+      <div class="dialog-section">
+        <h3 class="dialog-sub">What I built</h3>
+        <p id="dialog-built"></p>
+      </div>
+      <div class="dialog-section">
+        <h3 class="dialog-sub">Tools</h3>
+        <p id="dialog-tools"></p>
+      </div>
+    </section>
+    <div class="dialog-actions">
+      <a href="#" id="dialog-demo" class="button button-primary">Live demo</a>
+      <a href="#" id="dialog-code" class="button button-outline">View code</a>
+      <button class="button button-outline dialog-close-btn">Close</button>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; Sultan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
